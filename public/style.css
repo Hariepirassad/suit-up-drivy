@@ -1,0 +1,113 @@
+html, html *
+{
+    position:relative;
+}
+ 
+body
+{
+    margin: 0;
+}
+
+.img_fond{
+	position:fixed;
+	left:0%;
+	top:0%;
+	width:100%;
+	height:100%;
+}
+
+.img_logo{
+	position:fixed;
+	clear : left;
+	background-color: white;
+    top: 5px;
+    left: 0px;
+}
+
+#car{
+	margin-top : 200px;
+	margin-left : 800px;
+
+}
+
+.model{
+	width : 150px;
+	height : 30px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.price-by-day{
+	width : 150px;
+	height : 30px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.price-by-km{
+	width : 150px;
+	height : 30px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+#rental{
+	
+	margin-top : 15px;
+	margin-left : 800px;
+	
+	
+}
+
+.begin{
+	width : 150px;
+	height : 30px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.end{
+	width : 150px;
+	height : 30px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.distance{
+	width : 150px;
+	height : 30px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.option{
+	width : 150px;
+	height : 30px;
+	margin-top : 50px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#compute{
+	width : 150px;
+	height : 30px;
+	background : green;
+	margin-top : 110px;
+	margin-left : 570px;
+	border-radius : 10px 10px 10px 10px;
+	box-shadow: 1px 1px 5px 2px black;
+	
+}
+
+#actors{
+	background : transparent;
+	box-shadow: 1px 1px 5px 2px black;
+	margin-top : 110px;
+	height : 95px;
+	width : 400px;
+	margin-left : 825px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.actor{
+	margin-left : 135px;
+}

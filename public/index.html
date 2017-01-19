@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title>CSS/HTML Workshop with Drivy</title>
+    <title>Drivy</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body>
-    <div id="car">
-      <input class="model" type="text" placeholder="Car model"/>
-      <input class="price-by-day" type="number" placeholder="Price by day"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
+  
+  <body> 
+	<div class="img_fond">
+      <img class="img_fond" src="C:\Users\Harry\suit-up-drivy\public\locauto.jpg" alt="background"/>
     </div>
-    <div id="rental">
-      <input class="begin" type="date" placeholder="Rental begin date"/>
-      <input class="end" type="date" placeholder="Rental end date"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+	
+	<div class="img_logo">
+      <img class="img_logo" src="C:\Users\Harry\suit-up-drivy\public\Capture.jpg"/>
     </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script id="template" type="x-tmpl-mustache">
-      {{#actors}}
-        <div class="actor">
-          <span>{{who}}</span>
-          <span>{{type}}</span>
-          <span>{{amount}}</span>
-        </div>
-      {{/actors}}
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
-    <script src="drivy.js"></script>
-    <script src="index.js"></script>
+		
+	<div id="car">
+		<input class="model" type="text" placeholder="Car model"/>
+		<input class="price-by-day" type="number" placeholder="Price by day"/>
+		<input class="price-by-km" type="number" placeholder="Price by km"/>
+	</div>
+		
+	<div id="rental">
+		<input class="begin" type="date" placeholder="Rental begin date"/>
+		<input class="end" type="date" placeholder="Rental end date"/>
+		<input class="distance" type="number" placeholder="Distance in km"/>
+		<input class="option" type="checkbox" placeholder="Deductible option"/>
+	</div>
+		
+	<button id="compute">Compute</button>
+			
+	<div id="actors"></div>
+	<script id="template" type="x-tmpl-mustache">
+	{{#actors}}
+		<div class="actor">
+			<span>{{who}}</span>
+			<span>{{type}}</span>
+			<span>{{amount}}</span>
+		</div>
+	{{/actors}}
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+	<script src="drivy.js"></script>
+	<script src="index.js"></script>		
   </body>
+  
 </html>
